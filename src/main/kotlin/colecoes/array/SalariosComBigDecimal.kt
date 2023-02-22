@@ -1,8 +1,7 @@
-package array
+package colecoes.array
 
 import java.math.BigDecimal
 import java.math.RoundingMode
-
 
 
 fun main() {
@@ -42,9 +41,9 @@ private fun calculaAumentoRelativo(salario: BigDecimal, aumento: BigDecimal): Bi
         (salario * aumento).setScale(2, RoundingMode.UP)
     }
 
-fun bigDecimalArrayOf(vararg valores: String): Array<BigDecimal>{
-    return Array<BigDecimal>(valores.size) {i ->
-    valores[i].toBigDecimal()
+fun bigDecimalArrayOf(vararg valores: String): Array<BigDecimal> {
+    return Array<BigDecimal>(valores.size) { i ->
+        valores[i].toBigDecimal()
     }
 }
 

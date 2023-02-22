@@ -1,4 +1,4 @@
-package array
+package colecoes.array
 
 fun main() {
 
@@ -23,11 +23,11 @@ fun main() {
 //    intArray[2] = 33
 //    intArray[3] = 20
 
-    val intArray = intArrayOf(25,19,33,20,55,40)
+    val intArray = intArrayOf(25, 19, 33, 20, 55, 40)
 
     var idadeMaisVelho = 0
     for (idade in intArray) {
-        if(idade > idadeMaisVelho){
+        if (idade > idadeMaisVelho) {
             idadeMaisVelho = idade
         }
     }

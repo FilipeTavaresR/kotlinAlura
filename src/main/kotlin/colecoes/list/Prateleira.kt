@@ -1,4 +1,4 @@
-package list
+package colecoes.list
 
 data class Prateleira(
     val genero: String,

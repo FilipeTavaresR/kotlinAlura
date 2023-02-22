@@ -1,4 +1,4 @@
-package array
+package colecoes.array
 
 fun main() {
 
@@ -26,7 +26,6 @@ fun main() {
 
     val busca = idades.find { it >= 18 }
     println("Busca: $busca")
-
 
 
 }

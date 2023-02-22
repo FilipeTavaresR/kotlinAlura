@@ -1,4 +1,4 @@
-package list
+package colecoes.list
 
 fun main() {
     val prateleira = Prateleira(genero = "Literatura", livros = listaDeLivros)
